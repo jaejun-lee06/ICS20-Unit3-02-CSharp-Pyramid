@@ -12,7 +12,7 @@ class Program
         float height;
         float volume;
 
-// input
+      // Input
         Console.WriteLine("This program calculates the volume of a pyramid.");
         Console.WriteLine("");
         Console.Write("Enter the length (cm): ");
@@ -22,10 +22,10 @@ class Program
         Console.Write("Enter the height (cm): ");
         height = Convert.ToSingle(Console.ReadLine());
 
-// process
+      // Process
         volume = (length * width * height) / 3;
 
-// output
+      // Output
         Console.WriteLine("");
         Console.Write("The volume of the pyramid = " + volume.ToString("0.00") + " cm²");
         Console.ReadKey();
